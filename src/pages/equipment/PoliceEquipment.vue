@@ -11,7 +11,7 @@ onMounted(()=>{
    // console.log(pageStore.currentPage)
   })
 
-  let modelBgURL = new URL(`@/assets/image/admin/task/femalPoliceModel.png`,import.meta.url); //暂时写死，应从piana中获取性别
+  let modelBgURL = new URL(`@/assets/image/admin/equipment/femalePoliceModel.png`,import.meta.url); //暂时写死，应从piana中获取性别
 
   //数据 应从后端获取，暂时写死
   let AccumulatedUsedList = reactive({

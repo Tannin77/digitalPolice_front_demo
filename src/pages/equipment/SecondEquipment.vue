@@ -38,7 +38,7 @@
         border-radius: 4px;
 
         position: absolute;
-        top:183px;
+        top:150px;
         right: 154px;
     }
     .contain{

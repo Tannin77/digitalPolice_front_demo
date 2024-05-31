@@ -42,7 +42,7 @@ import { ref } from "vue";
     <style scoped>
         .wrapper{
             position: absolute;
-            left: 38px;
+            left: 200px;
             top:123;
             background-image: url('@/assets/image/admin/task/outlineFrame.png');
             background-repeat: no-repeat;

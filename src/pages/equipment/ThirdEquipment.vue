@@ -38,8 +38,8 @@
         border-radius: 4px;
 
         position: absolute;
-        top:500px;
-        right: 120px;
+        top:450px;
+        right: 140px;
     }
     .contain{
         width: 493px;
