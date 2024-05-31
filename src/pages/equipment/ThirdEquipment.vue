@@ -2,12 +2,12 @@
     <div class="wrapper">
         <div class="contain">
             <div class="header">
-                <span>防爆器材共1件</span>
+                <span>防护器材共1件</span>
             </div>
             <div class="content">
                 <el-scrollbar max-height="180px">
 
-                <span class="firstRow">便携式阻车器：<br></span>
+                <span class="firstRow">防弹头盔：<br></span>
                 
                 <span class="secondRow">1件</span>
                 </el-scrollbar>
@@ -32,14 +32,14 @@
 
 <style scoped>
     .wrapper{
-        width: 510px;
-        height: 229px;
+        width: 600px;
+        height: 160px;
         border: 1px solid #00B6FF;
         border-radius: 4px;
 
         position: absolute;
-        top:183px;
-        right: 154px;
+        top:500px;
+        right: 120px;
     }
     .contain{
         width: 493px;

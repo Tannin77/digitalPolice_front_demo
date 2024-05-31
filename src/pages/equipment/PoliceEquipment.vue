@@ -3,6 +3,8 @@ import {onMounted, reactive} from 'vue'
 import { usePageStore }   from "@/stores/pages"
 import AccumulatedUsed from "./AccumulatedUsed.vue"
 import SecondEquipment from "./SecondEquipment.vue"
+import ThirdEquipment from "./ThirdEquipment.vue"
+import FouthrEquipment from "./FourthEquipment.vue"
 const pageStore = usePageStore();
 onMounted(()=>{
     pageStore.currentPage = '3';
@@ -26,6 +28,8 @@ onMounted(()=>{
     <div class="equipment" :style="{backgroundImage:`url(${modelBgURL})`} ">
         <AccumulatedUsed :accumulated-used-list="AccumulatedUsedList"/>
         <SecondEquipment />
+        <ThirdEquipment/>
+        <FouthrEquipment/>
     </div>
 </template>
 
